@@ -1,0 +1,153 @@
+@import url(./fonts.css);
+
+.back:hover{
+background-color: blueviolet;
+     border-radius: 5px;
+     color: white;
+}
+
+
+h3::after{
+    content:"" ;
+    height:2px;
+    width:18vw;
+    background: black;
+    display:inline-block;
+    margin-left: 5%;
+}
+ .center {
+   
+  padding: 70px 0;
+  text-align: center;
+  } 
+
+
+  .chan:hover{
+      background-color: blueviolet;
+      color:white;
+  }
+  .about-text{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+   
+}			
+  .about-text .about-edu{
+    margin-top: 30px;
+}
+.about-text .li-wrap{
+    display:flex;
+    margin-bottom: 15px;
+}
+.about-text .li-wrap .date{
+    width: 125px;
+    color: blueviolet;
+}
+.about-text .li-wrap .info{
+    width: calc(100%-125px);
+    padding-left: 25px;
+    position: relative;
+}
+.about-text .li-wrap .info-title{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color:blueviolet;
+}
+.about-text .li-wrap .info-clg{
+    font-weight: 300;
+    font-size:14px;
+    margin-top:3px;
+    color: #747474;
+}
+.about-text .li-wrap .info-cont{
+    margin-top:15px;
+    color: #747474;
+}
+.about-text .li-wrap .info:before{
+    content:"";
+    position:absolute;
+    top: 3px;
+    left:0;
+    width: 10px;
+    height: 10px;
+    background:#36bbb9;
+    border-radius: 50%;
+}
+.about-text .li-wrap .info:before{
+    content:"";
+    position:absolute;
+    top: 10px;
+    left:4px;
+    width: 2px;
+    height: 90%;
+    background:blueviolet;
+}
+.sty{
+    border: 1px soild black;
+    box-shadow: 2px 2px 2px grey;
+}
+.sty:hover{
+    filter: blur(2px);
+}
+.fa-phone ::before{
+content: none;
+}
+.contact .info i {
+    font-size: 20px;
+    color: blueviolet;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background:rgb(230, 208, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+  
+
+
+
+@media  (min-width: 576px) and (max-width: 767.98px) {
+    
+    
+   
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  
+
+}
+
+@media (min-width: 992px) and  (max-width: 1199.98px) {
+    .ro1{
+        padding-left: 10%;
+    }
+    .ro2{
+        padding-right: 20%;
+    }
+    .ro3{
+        padding-right:15%;
+    }
+  
+}
+
+@media (min-width: 1200px) { 
+ .ro1{
+     padding-left: 10%;
+ }
+ .ro2{
+    padding-right: 20%;
+}
+.ro3{
+    padding-right:15%;
+}
+
+    
+ }
